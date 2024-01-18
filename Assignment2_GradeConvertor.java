@@ -20,12 +20,11 @@ public class Assignment2_GradeConvertor{
         } 
         else if (grade >= 80) {
             letter = 'B';
-        } else
-        if (grade >= 70) {
+    }   else if (grade >= 70){
             letter = 'C';
-        } else if (grade >= 60) {
+    }  else if (grade >= 60) {
             letter = 'D';
-        } else {
+    }   else {
             letter = 'F';
         }
         
